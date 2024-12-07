@@ -1,0 +1,12 @@
+{
+  "total_count": 2,
+  "result": [
+    {
+      "id": 1,
+      "management_position": {
+        "id": 1,
+        "name": "BOSS"
+      }
+    }
+  ]
+}

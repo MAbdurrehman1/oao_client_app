@@ -1,0 +1,41 @@
+{
+  "total_count": 3,
+  "result": [
+    {
+      "title": "The Why - Demystifying AI",
+      "description": "WHY should your company strive to become data and AI-driven? To answer this, we must go beyond the buzz. Learn the fundamentals and core concepts behind the AI-buzz. And understand the key role you have to create real value from AI.",
+      "end_date": "2024-09-30 00:00:00",
+      "duration": 60,
+      "order": 1,
+      "animated_thumbnail_url": "https://storage.dev.oao.ai/oao-media/888ae63h4XUjpjdvYa4x.gif",
+      "still_thumbnail_url": "https://storage.dev.oao.ai/oao-media/ncDBUYKPhRqocTwQJTzZ.jpg",
+      "id": 1,
+      "created_at": "2024-09-03 09:27:48",
+      "updated_at": "2024-09-03 09:27:48"
+    },
+    {
+      "title": "The How - Managing AI transformations",
+      "description": "HOW can companies  become data- and AI-driven and how you can contribute to it? Learn the importance of establishing urgency, empower key people, and build AI initiatives on your companies unique strengths.",
+      "end_date": "2024-09-30 00:00:00",
+      "duration": 60,
+      "order": 2,
+      "animated_thumbnail_url": "https://storage.dev.oao.ai/oao-media/888ae63h4XUjpjdvYa4x.gif",
+      "still_thumbnail_url": "https://storage.dev.oao.ai/oao-media/QUBToIgwX2vPCV8JX9OU.jpg",
+      "id": 2,
+      "created_at": "2024-09-03 09:28:57",
+      "updated_at": "2024-09-03 09:28:57"
+    },
+    {
+      "title": "The What - New opportunities from AI",
+      "description": "WHAT can you do to accelerate your company's AI transformation? Learn how you and your domain expertise are the keys to unlock new opportunities with data & AI. To prove it, we'll help you develop your own innovative AI-driven use-case idea.",
+      "end_date": "2024-09-30 00:00:00",
+      "duration": 60,
+      "order": 3,
+      "animated_thumbnail_url": "https://storage.dev.oao.ai/oao-media/ZRPqaV4xfw6fQ6Cog7cx.gif",
+      "still_thumbnail_url": "https://storage.dev.oao.ai/oao-media/Yl3Egw5X3bGnmk7Nk9l6.jpg",
+      "id": 3,
+      "created_at": "2024-09-03 09:29:54",
+      "updated_at": "2024-09-03 09:29:54"
+    }
+  ]
+}

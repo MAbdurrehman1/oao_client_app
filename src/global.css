@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* BRAND COLORS */
+    --brand-color-black: 0 0% 0%;
+    --brand-color-white: 0 0% 100%;
+    --brand-color-pink: 295 90% 76%;
+    --brand-color-pale-pink: 300 100% 93%;
+    --brand-color-green: 103 74% 59%;
+    --brand-color-pale-green: 300 100% 93%;
+    --brand-color-blue: 214 87% 63%;
+    --brand-color-pale-blue: 300 100% 93%;
+
+    /* UI COLORS */
+
+    /* GREY */
+    --grey-900: 0 0% 10%;
+    --grey-800: 0 0% 20%;
+    --grey-700: 0 0% 30%;
+    --grey-600: 0 0% 40%;
+    --grey-500: 0 0% 50%;
+    --grey-400: 0 0% 60%;
+    --grey-300: 0 0% 70%;
+    --grey-200: 0 0% 80%;
+    --grey-100: 0 0% 90%;
+    --grey-50: 0 0% 95%;
+    --grey-25: 0 0% 99%;
+
+    /* Pink */
+    --pink-900: 291 26% 15%;
+    --pink-800: 290 26% 31%;
+    --pink-700: 291 26% 45%;
+    --pink-600: 290 40% 61%;
+    --pink-500: 295 90% 76%;
+    --pink-400: 290 82% 81%;
+    --pink-300: 290 81% 85%;
+    --pink-200: 288 83% 91%;
+    --pink-100: 288 83% 95%;
+
+    /* Green */
+    --green-900: 99 44% 13%;
+    --green-800: 97 42% 25%;
+    --green-700: 98 41% 38%;
+    --green-600: 97 41% 50%;
+    --green-500: 103 74% 59%;
+    --green-400: 97 69% 69%;
+    --green-300: 98 69% 77%;
+    --green-200: 98 70% 84%;
+    --green-100: 99 70% 92%;
+
+    /* Blue */
+    --blue-900: 219 43% 13%;
+    --blue-800: 219 41% 26%;
+    --blue-700: 219 41% 40%;
+    --blue-600: 219 46% 53%;
+    --blue-500: 214 87% 63%;
+    --blue-400: 218 79% 72%;
+    --blue-300: 218 79% 79%;
+    --blue-200: 218 78% 86%;
+    --blue-100: 216 83% 93%;
+
+    /* Alerts and Warnings */
+    --red-600: 353 59% 52%;
+    --red-500: 353 98% 64%;
+    --red-400: 353 100% 74%;
+
+    /* Named Colors */
+
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.rdp {
+  width: 100%;
+}
+
+ol {
+  list-style: decimal;
+  padding-left: 1rem;
+}

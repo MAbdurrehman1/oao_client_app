@@ -1,0 +1,14 @@
+{
+  "result": {
+    "first_name": "string",
+    "last_name": "string",
+    "email": "string",
+    "user_id": 1,
+    "location": "string",
+    "role_title": "string",
+    "employee_id": 1,
+    "organization_name": "string",
+    "organization_id": 1,
+    "participation_id": "1"
+  }
+}

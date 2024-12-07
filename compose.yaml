@@ -1,0 +1,10 @@
+services:
+  clients_app:
+    build:
+      context: .
+      target: dev
+    volumes:
+      - ./:/src
+      - /src/node_modules
+    ports:
+      - 3000:3000
