@@ -1,0 +1,60 @@
+
+
+data: {"token": "Great! So, you assess your confidence in the idea as 56 out of 100, indicating a moderate level of belief in its potential.\n\n"}
+
+
+data: {"token": "Now, let me summarize the innovative idea we've crafted together:\n\n"}
+
+
+data: {"token": "INNOVATION_IDEA_START\n\n"}
+
+
+data: {"token": "# Title: Precious Metal Investment Solution for Wealthy Clients\n\n"}
+
+
+data: {"token": "## Elevator Pitch:\n\n"}
+
+
+data: {"token": "A data-driven banking solution that allows affluent clients to invest in silver and gold to hedge against stock market volatility, aiming for more stable returns.\n\n"}
+
+
+data: {"token": "## Context:\n\n"}
+
+
+data: {"token": "Wealthy clients currently rely on stock investments, facing challenges with market volatility and limited benefits from existing solutions.\n\n"}
+
+
+data: {"token": "## Pains and Gains:\n\n"}
+
+
+data: {"token": "Current solutions offer no significant benefits, and the primary pain point is the volatility in stock prices.\n\n"}
+
+
+data: {"token": "## New Innovation:\n\n"}
+
+
+data: {"token": "The proposed idea is to create a platform that enables clients to invest in silver and gold, leveraging historical price data and AI to predict market trends and demand.\n\n"}
+
+
+data: {"token": "## Potential Results:\n\n"}
+
+
+data: {"token": "The expected outcome is more stable money for clients, with the potential for profit after one year.\n\n"}
+
+
+data: {"token": "## Predictions, Information, and Data Sources:\n\n"}
+
+
+data: {"token": "The AI would need to predict price trends and market demand, using historical price data as a primary source.\n\n"}
+
+
+data: {"token": "## Key Assumptions:\n\n"}
+
+
+data: {"token": "An underlying assumption is that gold will always be bullish in the long run.\n\n"}
+
+
+data: {"token": "## Assessment of Idea:\nFeasibility: 12,\nConfidence: 56,\nPotential impact: 34\n\n"}
+
+
+data: {"token": "INNOVATION_IDEA_END\n\n"}

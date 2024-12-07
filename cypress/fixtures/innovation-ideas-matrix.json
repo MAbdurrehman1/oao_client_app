@@ -1,0 +1,18 @@
+{
+  "result": [
+    {
+      "id": 2,
+      "title": "cypress feed 2",
+      "feasibility_score": 1,
+      "confidence_score": 1,
+      "impact_score": 1
+    },
+    {
+      "id": 1,
+      "title": "cypress feed 1",
+      "feasibility_score": 2,
+      "confidence_score": 3,
+      "impact_score": 1
+    }
+  ]
+}

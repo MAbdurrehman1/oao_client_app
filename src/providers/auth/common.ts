@@ -1,0 +1,5 @@
+export enum AuthProviderModes {
+  UNAUTHENTICATED = 'UNAUTHENTICATED',
+  PARTICIPANT = 'PARTICIPANT',
+  MANAGER = 'MANAGER',
+}
