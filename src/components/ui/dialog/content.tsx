@@ -187,7 +187,7 @@ export const DialogContent = forwardRef<
             ref={setContentRefCallback}
             className={cn(
               `
-                overflow-y-auto p-s24 transition-all
+                h-full overflow-y-auto p-s24 transition-all
                 lg:p-s64
               `,
               contentClassName,
