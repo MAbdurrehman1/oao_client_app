@@ -109,7 +109,7 @@ export const TypewritterWithGradient = ({
         <div
           className={cn(
             `
-              absolute left-0 w-1 rounded-xl bg-gradient-to-b
+              absolute left-0 h-full w-1 rounded-xl bg-gradient-to-b
               from-brand-color-green via-brand-color-pink to-brand-color-green
               transition-all duration-500
             `,

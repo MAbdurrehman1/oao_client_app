@@ -4,9 +4,11 @@ import CalendarIcon from '@/assets/icons/calendar.svg?react'
 import AddToCalendarIcon from '@/assets/icons/calendar-add.svg?react'
 import CheckboxIcon from '@/assets/icons/checkbox.svg?react'
 import ChevronDownIcon from '@/assets/icons/chevron-down.svg?react'
+import CompressAlticon from '@/assets/icons/compress-alt.svg?react'
 import DeleteIcon from '@/assets/icons/delete.svg?react'
 import DownloadIcon from '@/assets/icons/download.svg?react'
 import ExecutionIcon from '@/assets/icons/execution.svg?react'
+import ExpandArrowsIcon from '@/assets/icons/expand-arrows.svg?react'
 import ExternalLinkIcon from '@/assets/icons/external-link.svg?react'
 import GuidanceIcon from '@/assets/icons/guidance.svg?react'
 import LockIcon from '@/assets/icons/lock.svg?react'
@@ -39,6 +41,8 @@ const iconMap = {
   calendar: CalendarIcon,
   'calendar-add': AddToCalendarIcon,
   trophy: TrophyIcon,
+  'expand-arrows': ExpandArrowsIcon,
+  'compress-alt': CompressAlticon,
   timer: TimerIcon,
   play: PlayIcon,
   badge: BadgeIcon,

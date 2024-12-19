@@ -1,6 +1,11 @@
 import { memo } from 'react'
+import { useDispatch } from 'react-redux'
 import ScrollToBottom from 'react-scroll-to-bottom'
 
+import { Icon } from '@/components/ui/icon'
+import { useAppSelector } from '@/store/hooks'
+import { toggleChatbotFullDisplay } from '@/store/slices/chatbot'
+import { selectChatbotFullDisplay } from '@/store/slices/chatbot/selectors'
 import { cn } from '@/utils/styles'
 import { generateTestId } from '@/utils/test'
 
@@ -12,6 +17,15 @@ import { useChat } from '../use-chat'
 
 export const ChatMode = memo(() => {
   const { messages, startConversation, conversationEnded } = useChat()
+  const disptach = useDispatch()
+
+  const chatbotFullDisplay = useAppSelector((state) =>
+    selectChatbotFullDisplay(state),
+  )
+
+  const updateChatbotFullScreenTrigger = () => {
+    disptach(toggleChatbotFullDisplay())
+  }
   return (
     <div
       {...generateTestId(
@@ -31,6 +45,14 @@ export const ChatMode = memo(() => {
           `,
       )}
     >
+      <div className="mb-1 ml-auto mr-2 flex justify-end pt-2">
+        <span
+          onClick={updateChatbotFullScreenTrigger}
+          className="cursor-pointer"
+        >
+          <Icon name={chatbotFullDisplay ? 'compress-alt' : 'expand-arrows'} />
+        </span>
+      </div>
       <ScrollToBottom
         className={cn('size-full px-s8', !conversationEnded && 'pb-[3.125rem]')}
         followButtonClassName="hidden"
